@@ -32,7 +32,7 @@ e-commerce platform, to identify key drivers of customer satisfaction.
   delay patterns by product category
 
 ## 📊 Dashboard
-🔗 *Tableau dashboard coming soon*
+🔗 [View Live Tableau Dashboard](https://public.tableau.com/app/profile/sankalp.singh4919/viz/OlistE-CommerceCustomerSatisfactionAnalysis_17829083176020/Dashboard1) 
 
 ## 📁 File Structure
 | File | Description |
