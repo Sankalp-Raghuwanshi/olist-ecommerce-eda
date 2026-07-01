@@ -12,6 +12,7 @@ e-commerce platform, to identify key drivers of customer satisfaction.
 | Freight burden | 18% reduction in freight ratio correlated with **10% increase** in reviews |
 | Geographic concentration | São Paulo accounted for **37%+** of total revenue |
 | Seller performance | Amazonas sellers showed the **highest delay rates** |
+| Delay pattern by category | Delays are systemic across ALL categories (same top categories appear in both normal and delayed windows), confirming logistics infrastructure is the root cause — not product-specific handling |
 
 ## 🛠️ Tech Stack
 `PostgreSQL` `SQL` `DBeaver` `Python` `Pandas` `Tableau`
@@ -26,7 +27,9 @@ e-commerce platform, to identify key drivers of customer satisfaction.
 - **Real-world data quality fix:** Free-text review fields with embedded line breaks/quotes 
   broke standard CSV parsing — resolved using a custom Pandas ingestion pipeline
 - **Indexed analytical view** (`analytics_view`) built for efficient querying across 100k+ rows
-- **Structured EDA** across 4 domains: sales trends, customer behavior, logistics, and seller performance
+- **Structured EDA** across 4 domains: sales trends, customer behavior, 
+  logistics, and seller performance — including anomaly investigation into 
+  delay patterns by product category
 
 ## 📊 Dashboard
 🔗 *Tableau dashboard coming soon*
